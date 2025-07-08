@@ -27,6 +27,8 @@ app.post('/submit-alimony', async (req, res) => {
       },
     });
 
+    console.log('Email credentials:', process.env.EMAIL_USER, process.env.EMAIL_PASS ? '✅' : '❌');
+
     // Отправка письма
     await transporter.sendMail({
       from: `"Форма алиментов" <${process.env.EMAIL_USER}>`,
