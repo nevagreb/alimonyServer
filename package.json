@@ -12,8 +12,16 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevagreb/alimonyServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nevagreb/alimonyServer/issues"
+  },
+  "homepage": "https://github.com/nevagreb/alimonyServer#readme",
   "description": ""
 }
